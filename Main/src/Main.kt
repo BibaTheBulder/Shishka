@@ -1,11 +1,11 @@
 fun main() {
-    var Biba = speed()
-    Biba.seySpeed(5)
+    var ob = Speed()
+    ob.showSpeed(5)
 
 }
-class speed{
-    fun seySpeed(speeed: Int){
-        println("i walk with speed $speeed")
+class Speed{
+    fun showSpeed(_walk: Int){
+        println("i walk with speed $_walk")
 
     }
 }
