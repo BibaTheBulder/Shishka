@@ -1,5 +1,5 @@
 class Speed{
-    fun showSpeed(walk: Int){
-        println("I walk with speed $walk")
+    fun showSpeed(rate: Int){
+        println("I walk with speed $rate")
     }
 }
