@@ -4,7 +4,7 @@ fun main() {
     val w1: IWalker = GoodWalker()
     val w2: IWalker = ZombieWalker()
     val w3: IWalker = SadWalker()
-    w1.walk()
-    w2.walk()
-    w3.walk()
+    w1.walk(10)
+    w2.walk(15)
+    w3.walk(5)
 }

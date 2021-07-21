@@ -1,6 +1,5 @@
-class GoodWalker() : IWalker {
-    var speedWalk = 10
-    override fun walk(){
+class GoodWalker() : SpeedPrinter(),IWalker {
+    override fun walk(speedWalk: Int){
         println("GoodWalker walk with speed $speedWalk km/h")
     }
 }

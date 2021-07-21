@@ -1,6 +1,5 @@
 class SadWalker : IWalker {
-    var speedWalk = 5
-    override fun walk(){
+    override fun walk(speedWalk: Int){
         println("SadWalker walk with speed $speedWalk km/h")
     }
 }
