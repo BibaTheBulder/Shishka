@@ -1,4 +1,4 @@
 fun main() {
-    val ob = Speed()
+    val ob = SpeedPrinter()
     ob.showSpeed(5)
 }
