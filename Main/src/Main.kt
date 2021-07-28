@@ -4,7 +4,9 @@ fun main(){
         humanList.add(HumanFactory.generateNewHuman())
 
     for (n in humanList){
-        n.Interface?.walk(n.speed)
+        println(n.Interface?.walk(n.speed))
         println("My weight is ${n.weight}kg and my height is ${n.height}cm.")
     }
 }
+
+
