@@ -1,5 +1,5 @@
 class ZombieWalker : IWalker {
-    override fun walk(speedWalk: Int){
-        println("ZombieWalker walk with speed $speedWalk km/h")
+    override fun walk(speed: Int): String {
+        return "I'm ZombieWalker. I walk with speed $speed km/h."
     }
 }
